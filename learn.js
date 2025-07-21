@@ -25,3 +25,18 @@ function soma (valor1, valor2) {
 function paraCelsius (valorFahrenheit){
     return (5/9) * (valorFahrenheit-32)
 }
+
+const carro = {
+    marca: "ford",
+    modelo: "fusion",
+    ano: 2018,
+    placa: "XYZ-0987",
+    buzina: function(){
+        alert("piiiiii")
+    },
+    completo: function(){
+        return "A marca do carro é "+this.marca+" e o modelo "+this.modelo+" de ano "+this.ano+ " cujo a placa é " +this.placa
+    }
+}
+
+alert(carro.completo())
