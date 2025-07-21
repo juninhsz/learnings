@@ -35,8 +35,27 @@ const carro = {
         alert("piiiiii")
     },
     completo: function(){
-        return "A marca do carro é "+this.marca+" e o modelo "+this.modelo+" de ano "+this.ano+ " cujo a placa é " +this.placa
+        return `A marca do carro é ${this.marca} e o modelo ${this.modelo} de ano ${this.ano} cujo a placa é ${this.placa}`
     }
 }
 
 alert(carro.completo())
+
+function clickEvent (){
+    alert("Você clicou no botão")
+}
+
+function dbclickEvent(){
+    alert("Você deu um duplo click no botão")
+}
+
+function turnBlack(){
+    let corBotao = document.getElementById("passarMouse")
+    corBotao.style.backgroundColor = "#2d2d2d"
+    corBotao.style.color = "white"
+}
+function turnWhite(){
+    let corBotao = document.getElementById("passarMouse")
+    corBotao.style.backgroundColor = "white"
+    corBotao.style.color = "black"
+}

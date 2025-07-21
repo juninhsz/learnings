@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Learn</title>
 </head>
 <body>
+    <h1 id="boavinda">Meu site de aprendizagem</h1>
+    <div id="botoes">
+        <button id="clickBotao" onclick="clickEvent()" onmouseover="bordaRoxaEmTodos()" onmouseout="blackBorderBtn1()">Evento Onclick</button>
+
+        <button id="clickDuplo" ondblclick="dbclickEvent()" >Evento Ondblclick</button>
+
+        <button id="passarMouse" onmouseover="turnBlack()" onmouseout="turnWhite()">Evento Mouseover / Mouseout</button>
+    </div>
+    
+
     <script src="learn.js"></script>
 </body>
 </html>
