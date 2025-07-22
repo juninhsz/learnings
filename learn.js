@@ -59,3 +59,15 @@ function turnWhite(){
     corBotao.style.backgroundColor = "white"
     corBotao.style.color = "black"
 }
+function verificar (){
+    let nome = document.getElementById("nome").value
+
+    if (nome.trim() == ""){
+        let p = document.getElementById("mensagem")
+        p.style.color = "red"
+        p.innerHTML = "O campo nome não pode estar vazio"
+    } else {
+        p.style.color = "green"
+        p.innerHTML = "O campo foi preenchido corretamente"
+    }
+}

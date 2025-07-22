@@ -27,3 +27,25 @@ button:hover {
 h1, button {
     display: block;
 }
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#form input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#form button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #5800ff;
+    color: white;
+    border: none;
+}
